@@ -8,7 +8,7 @@
 #< 0.6 F
 #If the user enters a value out of range, print a suitable error message and exit. For the test, enter a score of 0.85.
 
-score = input("Enter a score between 0.0 and 1.0: ")
+score = input("Choose a score between 0.0 and 1.0: ")
 
 # Tries to transform the string into a float; if doesn't work, terminates the program with an error message
 try:
