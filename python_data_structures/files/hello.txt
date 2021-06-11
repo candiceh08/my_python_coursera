@@ -1,0 +1,4 @@
+hi my name is candice
+how are you today
+I would like you to improve your skills in Python!
+See ya :)
