@@ -6,12 +6,12 @@
 fname = input('Enter file name:')
 fhand = open(fname)
 count = 0
-fnum = 0
+num = 0
 for line in fhand:
     if not line.startswith('X-DSPAM-Confidence:'):
         continue
     sppos = line.find(' ')
-    num = float(line[sppos:])
+    num += float(line[sppos:])
     count += 1
     #print(fnum)
 
