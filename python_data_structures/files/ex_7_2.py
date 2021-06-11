@@ -11,10 +11,8 @@ for line in fhand:
     if not line.startswith('X-DSPAM-Confidence:'):
         continue
     sppos = line.find(' ')
-    snum = line[sppos:]
-    fnum = float(snum)
+    num = float(line[sppos:])
     count += 1
-    print(fnum)
+    #print(fnum)
 
-print("The average of all those values is:",num/count)
-
+print("Average spam confidence:",num/count)
